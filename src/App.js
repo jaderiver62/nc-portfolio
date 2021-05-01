@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { Contact, Footer, Header, Nav, Portfolio, Resume, SingleProject} from "./components";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [categories] = useState([
+    {name: "About", description: "A little information about me"},
+    {name: "Contact", description: "How to contact me"},
+    {name: "Portfolio", description: "A selection of my work"},
+    {name: "Resume", description: "My resume"}
+
+  ]);
+  
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
+
+  return (<div>
+    </div>);
+
 }
 
 export default App;
