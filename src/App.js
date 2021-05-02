@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
 
   return (
-    <div>
+    <div class = "page-styles">
       <main>
         <Header></Header>
         <About></About>

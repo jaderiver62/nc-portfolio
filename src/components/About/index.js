@@ -1,16 +1,18 @@
 
 import React from 'react';
 import ninaImage from "../../assets/about-me/nina-cummings.jpg";
+import divider from "../../assets/about-me/divider.png";
+
 //TODO: Style this
 
 function About() {
 	return (
-		<section>
-		<img src={ninaImage} className="my-2" style={{ width: "20%" }} alt="Nina" />
-			<div class="headers">
+		<section class="about">
+			<img src={ninaImage} style={{ /*width: "15%",*/ padding:"60px" }} alt="Nina" class="nina-pic" />
+			<div>
 				<h1>About Me</h1>
-			</div>
-			<div class="paragraphs">
+				<img src={divider} style={{ width: "10%"}} alt="divider" />
+				<p>
 				Greetings!
 
 				I am Nina, a humble Baker by day.  In my spare time, however, I am an eager student of coding.  
@@ -26,6 +28,7 @@ function About() {
 				Sincerely, I love to code.
 
 				Watch this space...
+				</p>
 		</div>
 		</section>
 	);

@@ -4,14 +4,18 @@ import Nav from "../Nav";
 */
 
 //TODO: style this and pass values to Nav with props
-function Header() {
+function Header(props) {
+	const { currentView, setCurrentView } = props;
 	return (
-		<section>
-			<h1>Nina Cummings</h1>
-			<Nav></Nav>
-{/*			<img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-*/}		</section>
+		<div class="header-section">
+			<div class="header-text-styles">
+				<h1 class="h1">
+					<span class="image-text">Nina Cummings</span>
+				</h1>
+				<Nav></Nav>
+			</div>
 
+		</div>
 	);
 }
 
