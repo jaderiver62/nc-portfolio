@@ -5,7 +5,7 @@ import Nav from "../Nav";
 function Header() {
 	return (
 		<section>
-			Header
+			<h1>Nina Cummings</h1>
 			<Nav></Nav>
 {/*			<img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
 */}		</section>
