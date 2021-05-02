@@ -2,6 +2,8 @@ import React from 'react';
 import Nav from "../Nav";
 /*import coverImage from "../../assets/header/starbirth.jpg";
 */
+
+//TODO: style this and pass values to Nav with props
 function Header() {
 	return (
 		<section>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ninaImage from "../../assets/about-me/nina-cummings.jpg";
-
+//TODO: Style this
 
 function About() {
 	return (

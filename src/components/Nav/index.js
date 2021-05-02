@@ -1,7 +1,7 @@
 import React from "react";
 
-
-function Nav(props) {
+//TODO: style, use props & map to build
+function Nav(/*props*/) {
 
 	return (
 		<div>
