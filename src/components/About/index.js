@@ -15,7 +15,7 @@ function About() {
 				<p>
 					<h1>About Me</h1>
 
-					<img src={divider2} style={{ width: "20%" }} alt="divider" class="divider2" />
+					{/* <img src={divider2} style={{ width: "20%" }} alt="divider" class="divider2" /> */}
 					<br />
 					Greetings!
 					<br />
