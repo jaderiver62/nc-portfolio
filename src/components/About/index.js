@@ -19,7 +19,7 @@ function About() {
 					<br />
 					Greetings!
 					<br />
-					I am Nina, a humble Baker by day.....
+					I am Nina, a humble baker by day.....
 					<br />
 					In my spare time, however, I am an eager student of coding!
 					<br />
@@ -37,7 +37,7 @@ function About() {
 					Watch this space...
 				</p><br />
 				<br />
-<img src={divider} style={{ width: "40%" }} alt="divider" class="divider" />
+				<img src={divider} style={{ width: "52%" }} alt="divider" class="divider" />
 			</div>
 			
 		</section>
