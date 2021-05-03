@@ -37,7 +37,7 @@ function About() {
 					Watch this space...
 				</p><br />
 				<br />
-<img src={divider} style={{ width: "40%" }} alt="divider" class="divider" />
+<img src={divider} style={{ width: "55%" }} alt="divider" class="divider" />
 			</div>
 			
 		</section>

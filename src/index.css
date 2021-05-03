@@ -62,9 +62,10 @@ p {
         display: flex;
         flex-direction: column;
         padding: 0px;
+        margin-left: auto;
     }
     .image-text {
-        background: black;
+        background: none;
         text-align: center;
         font-weight: bold;
         padding: 10px;
