@@ -1,37 +1,91 @@
-*{
+.page-styles {
     font-family: Arial, Helvetica, sans-serif;
-    color: #d5896f;
-    background-color: #0d1118;
+    color: #70a288;
+    background-color: whitesmoke;
+    padding: 20px;
 }
 
-/*
-Test Color Palette 1 - blues/teals to neutral
-Considering adding black and grey
+.divider {
+    display: block;
+}
 
-fefcfb - whiteesque
-1282a2 - teal
-034078 - navy blue
-001f54 - midnight blue
-0a1128 - dark blue
+.header-section {
+    background-image: url("assets/header/northern-lights.jpg");
+    min-height: 100px;
+    padding: 40px;
 
-Test Color Palette 2 - Neutral tones
-Consider and accect with color and black
+}
 
-f1f0ea - greyish white
-534b52 - bold grey
-e0ddcf - blueish eggshell
-2d232e - aubergine - grey
-474448 - dark grey
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
 
-Test Color Palette 3 - Bold blue to Salmon
-Consider adding black and white
+.nina-pic {
+    width: 198px;
+    height: 264px;
+}
 
-031d44 - dark midnight blue
-04395e - greenish navy blue
-70a288 - minty green teal
-dab785 - shady dull orange-yellow
-d5896f -  muted salmon
+.about,
+.nav-tabs {
+    display: flex;
+    flex-direction: row;
+}
 
+.about {
+    padding: 20px;
+    margin: 20px;
+}
 
-https://coolors.co/palettes/trending
-*/
+p {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: black;
+    margin: 0;
+}
+
+.nav-tabs {
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.image-text {
+    background: rgba(0, 0, 0, .8);
+    font-weight: bold;
+    padding: 20px;
+}
+
+@media screen and (max-width: 999px) {
+    .about,
+    .nav-tabs {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin-left: auto;
+    }
+    .image-text {
+        background: none;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+
+    }
+    .header-section {
+        padding: 10px;
+    }
+    .nina-pic {
+        width: 50%;
+        height: 50%;
+        margin-left: 70px;
+       
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .image-text {
+        border: 10px;
+
+    }
+}

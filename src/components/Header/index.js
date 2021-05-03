@@ -1,12 +1,22 @@
 import React from 'react';
-import coverImage from "../../assets/cover/cover-image.jpg";
-function Header() {
-  return (
-    <section>
-      <h1>Nina Cummings</h1>
-      <img src={coverImage} style={{ width: "100%" }} alt="cover" />
-    </section>
-  );
+import Nav from "../Nav";
+/*import coverImage from "../../assets/header/starbirth.jpg";
+*/
+
+//TODO: style this and pass values to Nav with props
+function Header(props) {
+	const { currentView, setCurrentView } = props;
+	return (
+		<div class="header-section">
+			<div class="header-text-styles">
+				<h1 class="h1">
+					<span class="image-text">Nina Cummings</span>
+				</h1>
+				<Nav></Nav>
+			</div>
+
+		</div>
+	);
 }
 
 export default Header;
