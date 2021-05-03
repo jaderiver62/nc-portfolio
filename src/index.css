@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.divider {
+    display: block;
+}
+
 .header-section {
     background-image: url("assets/header/starbirth.jpg");
     min-height: 100px;
@@ -14,10 +18,12 @@
 
 h1 {
     font-size: 2.5rem;
+    margin: 0;
 }
 
 .nina-pic {
-    min-width: 150px;
+    width: 198px;
+    height: 264px;
 }
 
 .about,
@@ -33,7 +39,10 @@ h1 {
 }
 
 p {
+    font-size: 1.2rem;
     line-height: 2;
+    color: rgb(126, 119, 107);
+    margin: 0;
 }
 
 .nav-tabs {
@@ -56,13 +65,21 @@ p {
         padding: 0px;
     }
     .image-text {
-        background: rgba(56, 55, 55, 0.507);
+        /*        background: rgba(56, 55, 55, 0.507);
+*/
+        text-align: center;
         font-weight: bold;
         padding: 10px;
     }
     .header-section {
-        background-image: none;
+        /*        background-image: none;
+*/
         padding: 10px;
+    }
+    .nina-pic {
+        width: 50%;
+        height: 50%;
+        margin-left: 70px;
     }
 }
 
