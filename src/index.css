@@ -24,6 +24,7 @@ h1 {
 .nina-pic {
     width: 198px;
     height: 264px;
+    margin-left: 5%;
 }
 
 .about,
@@ -43,6 +44,7 @@ p {
     line-height: 2;
     color: rgb(126, 119, 107);
     margin: 0;
+    margin-left: 10%;
 }
 
 .nav-tabs {

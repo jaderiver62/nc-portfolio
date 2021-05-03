@@ -19,27 +19,32 @@ function About() {
 					<br />
 					Greetings!
 					<br />
-					I am Nina, a humble baker by day.....
 					<br />
-					In my spare time, however, I am an eager student of coding!
+					I am Nina, a humble baker by day.
+						<br />
+					However, in my spare time I am an eager student of coding!
 					<br />
 					My primary goal is to continue to learn more about development every day, and my work will reflect my endeavors.
-					<br />
 					<br />
 					In the broad scheme of things, I am studying computer science and mathematics at the University of Minnesota.
 					<br />
 					Most recently, I have been attending a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
 					<br />
 					I have been coding now for several years and have only become more fascinated with time.
-					<br /><br />
+					<br />
+					While you're here, be sure to check out my work!  feel free to use the contact page for questions, inqueries, input or anything else you would like to share!
+					<br />
+					Thank you for your time.
+					<br/>
 					Sincerely, I love to code!
-					<br /><br />
+					<br />
+					<br />
 					Watch this space...
 				</p><br />
 				<br />
 				<img src={divider} style={{ width: "52%" }} alt="divider" class="divider" />
 			</div>
-			
+
 		</section>
 	);
 }
