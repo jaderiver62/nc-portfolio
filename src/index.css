@@ -48,12 +48,17 @@ p {
     justify-content: flex-end;
     list-style-type: none;
     font-size: 1.5rem;
+    
+}
+.tab:hover{
+    color: bisque;
 }
 
-.image-text {
-    background: rgba(0, 0, 0, .8);
+.image-text , li{
     font-weight: bold;
     padding: 20px;
+    background: rgba(0, 0, 0, .8);
+
 }
 
 @media screen and (max-width: 999px) {
@@ -64,11 +69,13 @@ p {
         padding: 0px;
         margin-left: auto;
     }
-    .image-text {
+    .image-text, li {
         text-align: center;
         font-weight: bold;
         padding: 10px;
-
+    }
+    li{
+        background-color: transparent;
     }
     .header-section {
         padding: 10px;
@@ -83,7 +90,7 @@ p {
 }
 
 @media screen and (max-width: 400px) {
-    .image-text {
+    .image-text , li{
         border: 10px;
 
     }
