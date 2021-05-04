@@ -1,108 +1,135 @@
-.page-styles {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #70a288;
-    background-color: whitesmoke;
-    padding: 20px;
-}
-.true{
-    color:salmon;
-    background-color: black;
-}
-.divider {
-    display: block;
-}
-
-.header-section {
-    background-image: url("assets/header/northern-lights.jpg");
-    min-height: 100px;
-    padding: 40px;
-
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-.nina-pic {
-    width: 198px;
-    height: 264px;
-}
-
-.page,
-.nav-tabs {
-    display: flex;
-    flex-direction: row;
-}
-
-.page {
-    padding: 20px;
-    margin: 20px;
-    color: black;
-}
-.contact-panel{
-    padding: 40px;
-
-}
-.contact-container{
-    flex-direction: column;
-}
-
-p {
-    font-size: 1.2rem;
-    line-height: 2;
-
-    margin: 0;
-}
-
-.nav-tabs {
-    justify-content: flex-end;
-    list-style-type: none;
-    font-size: 1.5rem;
-}
-
-.image-text, .tab{
-    background: rgba(0, 0, 0, .8);
-    font-weight: bold;
-    padding: 20px;
-}
-.tab:hover,.current-tab{
-    color: salmon;
-    background-color: black;
-}
-
-
-@media screen and (max-width: 999px) {
+    .page-styles {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #70a288;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    
+    .true {
+        color: salmon;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .divider {
+        display: block;
+    }
+    
+    .form-element {
+        margin: 30px;
+    }
+    
+    .btn {
+        background-color: aqua;
+        margin-left: 20px;
+        padding: 10px;
+        border: none;
+        font-size: 1.5rem;
+    }
+    
+    .btn:hover {
+        background-color: coral;
+    }
+    
+    .btn .contact-container {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    
+    .header-section {
+        background-image: url("assets/header/northern-lights.jpg");
+        min-height: 100px;
+        padding: 40px;
+    }
+    
+    .error-msg {
+        color: red;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    
+    .nina-pic {
+        width: 198px;
+        height: 264px;
+    }
+    
     .page,
     .nav-tabs {
         display: flex;
-        flex-direction: column;
-        padding: 0px;
-        margin-left: auto;
-    }
-    .image-text, .tab{
-        text-align: center;
-        font-weight: bold;
-        padding: 10px;
-    }
-    .tab{
-background-color: transparent;
-    }
-    .header-section {
-        padding: 10px;
-    }
-    .nina-pic {
-        width: 50%;
-        height: 50%;
-        margin-left: 20%;
-       
+        flex-direction: row;
     }
     
-}
-
-@media screen and (max-width: 400px) {
-    .image-text {
-        border: 10px;
-
+    .page {
+        padding: 20px;
+        margin: 20px;
+        color: black;
     }
-}
+    
+    .contact-panel {
+        padding: 40px;
+    }
+    
+    .contact-container {
+        flex-direction: column;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 2;
+        margin: 0;
+    }
+    
+    .nav-tabs {
+        justify-content: flex-end;
+        list-style-type: none;
+        font-size: 1.5rem;
+    }
+    
+    .image-text,
+    .tab {
+        background: rgba(0, 0, 0, .8);
+        font-weight: bold;
+        padding: 20px;
+    }
+    
+    .tab:hover,
+    .current-tab {
+        color: salmon;
+        background-color: black;
+    }
+    
+    @media screen and (max-width: 999px) {
+        .page,
+        .nav-tabs {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            margin-left: auto;
+        }
+        .image-text,
+        .tab {
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .tab {
+            background-color: transparent;
+        }
+        .header-section {
+            padding: 10px;
+        }
+        .nina-pic {
+            width: 50%;
+            height: 50%;
+            margin-left: 20%;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .image-text {
+            border: 10px;
+        }
+    }

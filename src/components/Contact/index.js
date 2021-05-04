@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { validater } from "../../utils/helpers";
-//TODO: create email validator
+import airplane from "../../assets/contact/airplane.png";
+import paperPlane from "../../assets/contact/paper-plane.png";
+
+
 
 function Contact() {
 	const [formState, setFormState] = useState({ name: "", message: "", email: "" });
@@ -31,21 +34,46 @@ function Contact() {
 		<div class="contact-container">
 			<div class="contact-panel">
 				<h1>
+				<img src={paperPlane} style={{ width: "15%", padding: "40px" }} alt="paper plane" class="airplane" />
+
 					Send me a message!
+
 					</h1>
 			</div>
+
 			<div class="contact-panel">
-				<form id="contact-me">
-					<div>
-						<label htmlFor="Name">Name:</label>
+				<form id="contact-me" onSubmit={handleSubmit}>
+					<div class="form-element">
+						<label htmlFor="name">Name:</label>
 						<br />
 						<br />
 						<input type="text" defaultValue={name} onBlur={handleFocus}
-							name="Name" />
+							name="name" />
 					</div>
+					<div class="form-element">
+						<label htmlFor="message">Message:</label>
+						<br />
+						<br />
+						<textarea defaultValue={message} onBlur={handleFocus}
+							name="message" rows="12" cols="100"/>
+					</div>			
+
+					<div class="form-element">
+						<label htmlFor="email">E-mail:</label>
+						<br />
+						<br />
+						<input type="text" defaultValue={email} onBlur={handleFocus}
+							name="email" />
+					</div>
+					{errorMessage && (
+                    <div>
+                        <p className="error-msg">{errorMessage}</p>
+                    </div>
+                )}
+                <button type="submit" class="btn">Send</button>
 				</form>
 			</div>
-
+			<img src={airplane} style={{ width: "15%", padding: "40px" }} alt="airplane" class="airplane" />
 		</div>
 	</section>)
 

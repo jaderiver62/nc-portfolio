@@ -2,7 +2,6 @@
 import React from 'react';
 import ninaImage from "../../assets/about-me/nina-cummings.png";
 import divider from "../../assets/about-me/divider.png";
-import divider2 from "../../assets/about-me/divider-2.png";
 
 //TODO: Style this
 
