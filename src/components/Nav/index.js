@@ -9,8 +9,8 @@ function Nav(props) {
 			<ul class="nav-tabs" >
 
 				{tabs.map(tab => (
-					<li class="image-text" className={`${currentView.name === tab.name && "font-weight-bolder text-white"}`}>
-						<span onClick={() => setCurrentView(tab)}>{tab.name}</span></li>
+					<li className={`${currentView.name === tab.name}`}>
+						<div class="tab" onClick={() => setCurrentView(tab)}>{tab.name}</div></li>
 				))}
 				{/* <li class="image-text">About Me</li>
 				<li class="image-text">Portfolio</li>

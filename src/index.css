@@ -4,7 +4,10 @@
     background-color: whitesmoke;
     padding: 20px;
 }
-
+.true{
+    color:salmon;
+    background-color: black;
+}
 .divider {
     display: block;
 }
@@ -26,21 +29,29 @@ h1 {
     height: 264px;
 }
 
-.about,
+.page,
 .nav-tabs {
     display: flex;
     flex-direction: row;
 }
 
-.about {
+.page {
     padding: 20px;
     margin: 20px;
+    color: black;
+}
+.contact-panel{
+    padding: 40px;
+
+}
+.contact-container{
+    flex-direction: column;
 }
 
 p {
     font-size: 1.2rem;
     line-height: 2;
-    color: black;
+
     margin: 0;
 }
 
@@ -50,25 +61,32 @@ p {
     font-size: 1.5rem;
 }
 
-.image-text {
+.image-text, .tab{
     background: rgba(0, 0, 0, .8);
     font-weight: bold;
     padding: 20px;
 }
+.tab:hover,.current-tab{
+    color: salmon;
+    background-color: black;
+}
+
 
 @media screen and (max-width: 999px) {
-    .about,
+    .page,
     .nav-tabs {
         display: flex;
         flex-direction: column;
         padding: 0px;
         margin-left: auto;
     }
-    .image-text {
+    .image-text, .tab{
         text-align: center;
         font-weight: bold;
         padding: 10px;
-
+    }
+    .tab{
+background-color: transparent;
     }
     .header-section {
         padding: 10px;
@@ -76,7 +94,7 @@ p {
     .nina-pic {
         width: 50%;
         height: 50%;
-        margin-left: 70px;
+        margin-left: 20%;
        
     }
     
