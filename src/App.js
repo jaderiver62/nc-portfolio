@@ -1,14 +1,34 @@
-import React from "react";
-import { /*Contact,*/ Footer,/* Nav, Portfolio, Resume, SingleProject*/  Header, About} from "./components";
+import React, { useEffect, useState } from "react";
+import { Contact, Footer, Portfolio, Resume, Header, About} from "./components";
 import "./App.css";
 
 function App() {
+  const [tabs] = useState([
+      {name: "About", title: "About Me"},
+      {name: "Portfolio", title: "My Portfolio"},
+      {name: "Contact", title: "Send me a message!"},
+      {name: "Resume", title: "Resume"}
+  ]);
+  const [currentView, setCurrentView] = useState(tabs[0]);
 
+  useEffect(() => {
+    document.title = `${currentView.name} ❆ Nina Cummings`
+}, [currentView]);
+
+const renderView = name => {
+  return (name === "Portfolio") ? <Portfolio /> :
+  (name === "Contact") ? <Contact /> :
+  (name === "Resume") ? <Resume /> : <About />;
+};
   return (
     <div class = "page-styles">
       <main>
-        <Header></Header>
-        <About></About>
+        <Header
+        tabs={tabs}
+        currentView={currentView}
+        setCurrentView={setCurrentView}
+        ></Header>                 
+        {renderView(currentView.name)}
       </main>
       <Footer></Footer>
     </div>
