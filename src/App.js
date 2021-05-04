@@ -21,7 +21,7 @@ const renderView = name => {
   (name === "Resume") ? <Resume /> : <About />;
 };
   return (
-    <div class = "page-styles">
+    <div className = "page-styles">
       <main>
         <Header
         tabs={tabs}
