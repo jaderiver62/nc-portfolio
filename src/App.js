@@ -12,7 +12,7 @@ function App() {
   const [currentView, setCurrentView] = useState(tabs[0]);
 
   useEffect(() => {
-    document.title = `${currentView.name} ★ Nina Cummings`
+    document.title = `${currentView.name} ❆ Nina Cummings`
 }, [currentView]);
 
 const renderView = name => {
