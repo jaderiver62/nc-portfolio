@@ -7,14 +7,14 @@ import divider from "../../assets/about-me/divider.png";
 
 function About() {
 	return (
-		<section class="page">
-			<img src={ninaImage} style={{ /*width: "15%",*/ padding: "40px" }} alt="Nina" class="nina-pic" />
+		<section className="page">
+			<img src={ninaImage} style={{ /*width: "15%",*/ padding: "40px" }} alt="Nina" className="nina-pic" />
 			<div>
 				<br /><br />
-				<p>
-					<h1>About Me</h1>
 
-					{/* <img src={divider2} style={{ width: "20%" }} alt="divider" class="divider2" /> */}
+					<h1>About Me</h1>
+				<p>
+					{/* <img src={divider2} style={{ width: "20%" }} alt="divider" className="divider2" /> */}
 					<br />
 					Greetings!
 					<br />
@@ -36,7 +36,7 @@ function About() {
 					Watch this space...
 				</p><br />
 				<br />
-				<img src={divider} style={{ width: "55%" }} alt="divider" class="divider" />
+				<img src={divider} style={{ width: "55%" }} alt="divider" className="divider" />
 			</div>
 
 		</section>

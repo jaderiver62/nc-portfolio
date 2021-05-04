@@ -30,50 +30,49 @@ function Contact() {
 	};
 
 
-	return (<section class="page">
-		<div class="contact-container">
-			<div class="contact-panel">
+	return (<section className="page">
+
+		<div className="contact-container">
+			<div className="contact-panel">
 				<h1>
-				<img src={paperPlane} style={{ width: "15%", padding: "40px" }} alt="paper plane" class="airplane" />
-
 					Send me a message!
+				</h1>
+				<img src={paperPlane} style={{ width: "10%"}} alt="paper plane" className="airplane" />
 
-					</h1>
 			</div>
-
-			<div class="contact-panel">
+			<div className="contact-panel">
 				<form id="contact-me" onSubmit={handleSubmit}>
-					<div class="form-element">
+					<div className="form-element">
 						<label htmlFor="name">Name:</label>
 						<br />
 						<br />
-						<input type="text" defaultValue={name} onBlur={handleFocus}
-							name="name" />
+						<input type="text" defaultValue={name} onChange={handleInput} onBlur={handleFocus}
+							name="name" className="contact-input"/>
 					</div>
-					<div class="form-element">
+					<div className="form-element">
 						<label htmlFor="message">Message:</label>
 						<br />
 						<br />
-						<textarea defaultValue={message} onBlur={handleFocus}
-							name="message" rows="12" cols="100"/>
-					</div>			
+						<textarea defaultValue={message} onChange={handleInput} onBlur={handleFocus}
+							name="message" rows="12" cols="50" className="contact-input"/>
+					</div>
 
-					<div class="form-element">
+					<div className="form-element">
 						<label htmlFor="email">E-mail:</label>
 						<br />
 						<br />
-						<input type="text" defaultValue={email} onBlur={handleFocus}
-							name="email" />
+						<input type="text" defaultValue={email} onChange={handleInput} onBlur={handleFocus}
+							name="email" className="contact-input"/>
 					</div>
 					{errorMessage && (
-                    <div>
-                        <p className="error-msg">{errorMessage}</p>
-                    </div>
-                )}
-                <button type="submit" class="btn">Send</button>
+						<div>
+							<p className="error-msg">{errorMessage}</p>
+						</div>
+					)}
+					<button type="submit" className="btn">Send</button>
 				</form>
 			</div>
-			<img src={airplane} style={{ width: "15%", padding: "40px" }} alt="airplane" class="airplane" />
+			<img src={airplane} style={{ width: "15%", padding: "40px", opacity:".7" }} alt="airplane" className="airplane" />
 		</div>
 	</section>)
 
