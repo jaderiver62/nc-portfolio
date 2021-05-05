@@ -17,8 +17,7 @@ function Contact() {
 		if (error.target.name === "email") {
 			if (!validater(error.target.value)) setErrorMessage("Invalid e-mail!")
 			else setErrorMessage("");
-		}
-		if (!error.target.value.length) setErrorMessage(`Please enter your ${error.target.name}!`)
+		} else if (!error.target.value.length) setErrorMessage(`Please enter your ${error.target.name}!`)
 		else setErrorMessage("");
 	}
 	const handleSubmit = (error) => {

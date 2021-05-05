@@ -80,7 +80,7 @@
     
     .contact-container {
         flex-direction: column;
-        margin-left: 35%;
+        margin-left: 25%;
     }
     
     .contact-input {
@@ -124,8 +124,7 @@
         .nav-tabs {
             display: flex;
             flex-direction: column;
-            padding: 0px;
-            margin-left: auto;
+            margin: auto;
         }
         .image-text,
         .tab {
