@@ -107,7 +107,7 @@ function Portfolio(props) {
 			><Router>
 				<Link to={item.link}><img src={item.src} alt={item.altText} /></Link>
 				</Router>
-				<CarouselCaption className="caption" captionText={item.caption} captionHeader={item.caption} />
+				<CarouselCaption captionText={item.caption} captionHeader={item.altText} />
 			</CarouselItem>
 		);
 	});

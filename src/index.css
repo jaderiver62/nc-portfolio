@@ -43,6 +43,17 @@
         padding: 40px;
     }
     
+    .carousel-caption {
+        color: black !important;
+        background-color: rgba(12, 10, 10, 0.52);
+        font-size: 2rem !important;
+    }
+    
+    .carousel {
+        background-color: aquamarine;
+        height: 400px;
+    }
+    
     .error-msg {
         color: red;
     }
@@ -53,8 +64,7 @@
     }
     
     .nina-pic {
-        width: 198px;
-        height: 264px;
+        height: 400px;
     }
     
     .airplane {
@@ -70,11 +80,16 @@
     .nav-tabs {
         display: flex;
         flex-direction: row;
+        border-bottom: none !important;
     }
     
     .page {
         padding: 20px;
         margin: 20px;
+        color: black;
+    }
+    
+    .caption {
         color: black;
     }
     
