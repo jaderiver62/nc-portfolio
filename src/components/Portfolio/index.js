@@ -116,11 +116,6 @@ function Portfolio(props) {
 
 				<CarouselCaption captionText={item.caption} alt={item.altText} captionHeader={item.altText} />
 			</CarouselItem>
-		);
-	});
-
-
-	return (
 		<div className="portfolio-page">
 			<div className="portfolio-header">
 				<h1>My Portfolio</h1>
