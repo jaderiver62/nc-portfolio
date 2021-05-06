@@ -43,6 +43,17 @@
         padding: 40px;
     }
     
+    .carousel-caption {
+        color: black !important;
+        background-color: rgba(12, 10, 10, 0.52);
+        font-size: 2rem !important;
+    }
+    
+    .carousel {
+        background-color: aquamarine;
+        height: 400px;
+    }
+    
     .error-msg {
         color: red;
     }
@@ -53,8 +64,7 @@
     }
     
     .nina-pic {
-        width: 198px;
-        height: 264px;
+        height: 400px;
     }
     
     .airplane {
@@ -70,6 +80,7 @@
     .nav-tabs {
         display: flex;
         flex-direction: row;
+        border-bottom: none !important;
     }
     
     .page {
@@ -78,15 +89,28 @@
         color: black;
     }
     
+    .caption {
+        color: black;
+    }
+    
     .contact-container {
         flex-direction: column;
-        margin-left: 35%;
+        margin-left: 25%;
+        font-size: 1.4rem;
     }
     
     .contact-input {
         background-color: rgb(235, 223, 255);
         border: 1px solid;
         padding: 10px;
+    }
+    
+    .contact-details {
+        font-weight: bold;
+    }
+    
+    a {
+        color: rgb(126, 49, 161);
     }
     
     p {
@@ -124,8 +148,7 @@
         .nav-tabs {
             display: flex;
             flex-direction: column;
-            padding: 0px;
-            margin-left: auto;
+            margin: auto;
         }
         .image-text,
         .tab {
