@@ -110,7 +110,7 @@ function Portfolio(props) {
 			<CarouselItem
 				onExiting={() => setAnimating(true)}
 				onExited={() => setAnimating(false)}
-				key={item.src}
+				key={item.link}
 			>
 				<a href={item.link} rel="noreferrer" target="_blank"><img src={item.src} alt={item.altText} /></a>
 
@@ -145,7 +145,7 @@ function Portfolio(props) {
 				<br />
 				<div>
 					<Row className="justify-content-center">
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={wikipleiades} alt="safe-passage" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">WikiPleiades</CardTitle>
@@ -156,7 +156,7 @@ function Portfolio(props) {
 								<CardLink href="https://github.com/akramsabbah9/wikipleiades">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={amanuensis} alt="amanuensis" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Amanuensis</CardTitle>
@@ -167,7 +167,7 @@ function Portfolio(props) {
 								<CardLink href="https://github.com/jaderiver62/amanuensis">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={apparatus} alt="apparatus" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Apparatus</CardTitle>
@@ -178,7 +178,7 @@ function Portfolio(props) {
 								<CardLink href="https://github.com/jaderiver62/apparatus">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={liaison} alt="amanuensis" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Liaison</CardTitle>
@@ -189,7 +189,7 @@ function Portfolio(props) {
 								<CardLink href="https://github.com/jaderiver62/liaison">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={passwordGenerator} alt="password generator" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Password Generator</CardTitle>
@@ -200,7 +200,7 @@ function Portfolio(props) {
 								<CardLink href="https://github.com/password-generator">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={prosperity} alt="prosperity" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Prosperity</CardTitle>
@@ -211,7 +211,7 @@ function Portfolio(props) {
 								<CardLink href="https://serene-everglades-38825.herokuapp.com/">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={safePassage} alt="safe-passage" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Safe Passage</CardTitle>
@@ -222,7 +222,7 @@ function Portfolio(props) {
 								<CardLink href="https://jaderiver62.github.io/safe-passage/">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={scheduler} alt="safe-passage" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Work Day Scheduler</CardTitle>
@@ -233,7 +233,7 @@ function Portfolio(props) {
 								<CardLink href="https://jaderiver62.github.io/work-day-scheduler/">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={weatherBee} alt="safe-passage" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Weather-Bee</CardTitle>
@@ -244,7 +244,7 @@ function Portfolio(props) {
 								<CardLink href="https://jaderiver62.github.io/weather-bee/">GitHub</CardLink>
 							</Card>
 						</Col>
-						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+						<Col className="card-col" xs="12" sm="12" md="8" lg="4" xl="4">
 							<CardImg top width="100%" src={workbase} alt="safe-passage" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">WorkBase</CardTitle>

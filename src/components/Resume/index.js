@@ -15,10 +15,14 @@ function Resume() {
 
 	return (
 		<div className="resume-section">
+			<div >
+				<br />
+				<h1>Please check out my <a href={NinaResume} target="_blank" rel="noreferrer">Resume</a>! </h1>
+			</div>
 			<Row>
 				<Col className="prof-section" sm="12" md="6">
 					<div>
-						<h2>Back-End:</h2>
+						<h2>Back-End Proficiencies:</h2>
 						<ul>
 							{proficiencies.back.map(prof => <li key={prof}>{prof}</li>)}
 						</ul>
@@ -26,17 +30,14 @@ function Resume() {
 				</Col>
 				<Col className="prof-section" sm="12" md="6">
 					<div>
-						<h2>Front-End:</h2>
+						<h2>Front-End Proficiencies:</h2>
 						<ul>
 							{proficiencies.front.map(prof => <li key={prof}>{prof}</li>)}
 						</ul>
 					</div>
 				</Col>
 			</Row>
-			<div >
-				<br />
-				<h1>Please checkout my <a href={NinaResume} target="_blank" rel="noreferrer">Resume</a>! </h1>
-			</div>
+
 		</div>
 	);
 }

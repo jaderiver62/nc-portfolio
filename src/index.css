@@ -1,13 +1,22 @@
     .page-styles {
         font-family: Arial, Helvetica, sans-serif;
-        color: #70a288;
-        background-color: whitesmoke;
-        padding: 20px;
+        color: #b3c5bc;
+        background-color: rgb(246, 241, 241);
     }
     
     .true {
         background-color: rgb(0, 0, 0);
         color: white;
+    }
+    
+    .navbar {
+        background-color: white;
+        border-top: 2px solid black;
+        padding: 20%;
+    }
+    
+    .navbar-brand {
+        margin-left: 10%;
     }
     
     .divider {
@@ -38,7 +47,7 @@
     }
     
     .header-section {
-        background-image: url("assets/header/northern-lights.jpg");
+        background-image: url("assets/header/northern-lights2.jpg");
         min-height: 100px;
         padding: 40px;
     }
@@ -50,12 +59,20 @@
         text-align: center;
     }
     
+    .resume-section {
+        background-color: white;
+    }
+    
     .portfolio-page {
         color: black;
     }
     
     .card-col {
         margin: 30px;
+    }
+    
+    .card-col:hover {
+        opacity: .7;
     }
     
     .card-style {
@@ -127,7 +144,6 @@
     }
     
     .contact-input {
-        background-color: rgb(235, 223, 255);
         border: 1px solid;
         padding: 10px;
     }
@@ -179,6 +195,20 @@
         padding: 40px;
     }
     
+    .sr-only {
+        font-size: 1.5rem;
+        color: rgb(231, 50, 255) !important;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: rebeccapurple;
+    }
+    
+    a:link:hover {
+        opacity: .7;
+    }
+    
     @media screen and (max-width: 999px) {
         .card-style {
             width: 100%
@@ -209,6 +239,9 @@
             width: 50%;
             height: 50%;
             margin-left: 20%;
+        }
+        .carousel {
+            justify-content: center;
         }
     }
     
