@@ -1,3 +1,4 @@
+// Footer Component in Reactstrap with a fixed-bottom
 import React from "react";
 import {  Row, Col } from 'reactstrap';
 

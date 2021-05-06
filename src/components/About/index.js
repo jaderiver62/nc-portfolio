@@ -1,9 +1,9 @@
-
+// About Me component
 import React from 'react';
 import ninaImage from "../../assets/about-me/nina-cummings.png";
 import divider from "../../assets/about-me/divider.png";
 
-//TODO: Style this
+
 
 function About() {
 	return (
@@ -14,7 +14,6 @@ function About() {
 
 					<h1>About Me</h1>
 				<p>
-					{/* <img src={divider2} style={{ width: "20%" }} alt="divider" className="divider2" /> */}
 					<br />
 					Greetings!
 					<br />

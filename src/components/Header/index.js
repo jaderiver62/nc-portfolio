@@ -1,3 +1,4 @@
+// Header Component - linked to Nav with props
 import React from 'react';
 import Nav from "../Nav";
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Row, Col } from "reactstrap";
 import NinaResume from "../../assets/resume/nina-cummings.pdf";
 
+// Listing my proficiencies
 function Resume() {
 	const [proficiencies] = useState({
 		front: [
@@ -12,7 +13,8 @@ function Resume() {
 			"Java", "Python", "MongoDB / Mongoose", "MySQL / Sequelize", "Node.js", "Express", "REST APIs", "Jest"
 		]
 	});
-
+// Putting my proficiencies in lists using map
+// Link to resume file - NOTE: Resume is TODO, I haven't got that done yet
 	return (
 		<div className="resume-section">
 			<div >

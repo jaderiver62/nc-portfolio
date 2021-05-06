@@ -1,5 +1,7 @@
+// Contact Form Component
 import React, { useState } from "react";
 import { validater } from "../../utils/helpers";
+// E-mail Validater
 import airplane from "../../assets/contact/airplane.png";
 import paperPlane from "../../assets/contact/paper-plane.png";
 
