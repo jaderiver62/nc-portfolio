@@ -15,7 +15,7 @@ Project Link:
 ---------------------------------------
 
 
-![Project Image](/assets/readme/screenshot.png)
+![Project Image](./src/assets/readme/screenshot.png)
 
 ---------------------------------------
 
