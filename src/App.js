@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Contact, Footer, Portfolio, Resume, Header, About} from "./components";
 import "./App.css";
+import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css";
 
 function App() {
   const [tabs] = useState([
@@ -21,6 +22,7 @@ const renderView = name => {
   (name === "Resume") ? <Resume /> : <About />;
 };
   return (
+    
     <div className = "page-styles">
       <main>
         <Header

@@ -5,7 +5,7 @@ import {
 	CarouselItem,
 	CarouselControl,
 	CarouselIndicators,
-	CarouselCaption, Card, CardImg, CardText, CardBody,
+	CarouselCaption, Card, CardImg, CardText,
 	CardTitle, CardSubtitle, CardLink, Row, Col
 } from 'reactstrap';
 import amanuensis from "../../assets/portfolio/amanuensis2.png";
@@ -17,9 +17,16 @@ import safePassage from "../../assets/portfolio/safe-passage2.png";
 import scheduler from "../../assets/portfolio/scheduler2.png";
 import weatherBee from "../../assets/portfolio/weather-bee2.png";
 import workbase from "../../assets/portfolio/workbase2.png";
+import wikipleiades from "../../assets/portfolio/wikipleiades2.png";
 
 
 const items = [
+	{
+		src: amanuensis,
+		altText: 'WikiPleiades',
+		caption: '✹ Space Wiki',
+		link: 'https://enigmatic-savannah-82928.herokuapp.com/'
+	},
 	{
 		src: amanuensis,
 		altText: 'Amanuensis',
@@ -139,6 +146,17 @@ function Portfolio(props) {
 				<div>
 					<Row className="justify-content-center">
 						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={wikipleiades} alt="safe-passage" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">WikiPleiades</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Space Wiki</CardSubtitle>
+								<CardText>Create, read and edit articles about space and physics.  Keeps track of all revisions and has a random feature!</CardText>
+								<CardLink href="https://enigmatic-savannah-82928.herokuapp.com/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://github.com/akramsabbah9/wikipleiades">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
 							<CardImg top width="100%" src={amanuensis} alt="amanuensis" />
 							<Card body className="card-style">
 								<CardTitle tag="h5">Amanuensis</CardTitle>
@@ -193,12 +211,54 @@ function Portfolio(props) {
 								<CardLink href="https://serene-everglades-38825.herokuapp.com/">GitHub</CardLink>
 							</Card>
 						</Col>
-					</Row>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={safePassage} alt="safe-passage" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Safe Passage</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Air Quality/Covid-19 Tracker</CardSubtitle>
+								<CardText>Get up to date air-quality information and Covid-19 reports for the US.</CardText>
+								<CardLink href="https://jaderiver62.github.io/safe-passage/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://jaderiver62.github.io/safe-passage/">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={scheduler} alt="safe-passage" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Work Day Scheduler</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Keep your schedule organized</CardSubtitle>
+								<CardText>An app to plan your day with ease.</CardText>
+								<CardLink href="https://jaderiver62.github.io/work-day-scheduler/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://jaderiver62.github.io/work-day-scheduler/">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={weatherBee} alt="safe-passage" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Weather-Bee</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Add-Free Weather</CardSubtitle>
+								<CardText>Search for a 5-day forecast for anywhere on the globe!</CardText>
+								<CardLink href="https://jaderiver62.github.io/weather-bee/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://jaderiver62.github.io/weather-bee/">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={workbase} alt="safe-passage" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">WorkBase</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Employee Database Builder</CardSubtitle>
+								<CardText>Build a database to store information about employees and managers.  Very customizable!</CardText>
+								<CardLink href=" https://github.com/jaderiver62/workbase">GitHub</CardLink>
+							</Card>
+						</Col>
 
+					</Row>
 				</div>
 			</div>
 		</div>
 	);
 }
-
+//
 export default Portfolio;

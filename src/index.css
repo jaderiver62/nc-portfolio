@@ -44,7 +44,8 @@
     }
     
     .portfolio-header,
-    .carousel-subtitle {
+    .carousel-subtitle,
+    .resume-section {
         padding: 40px;
         text-align: center;
     }
@@ -162,8 +163,20 @@
         padding: 20px;
     }
     
+    .resume-section {
+        color: black;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
     .tab:hover {
         color: rgb(238, 230, 230);
+    }
+    
+    .prof-section {
+        padding: 40px;
     }
     
     @media screen and (max-width: 999px) {
