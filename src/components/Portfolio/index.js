@@ -40,7 +40,7 @@ const items = [
 	{
 		src: passwordGenerator,
 		altText: 'Password Generator',
-		caption: 'Helper App',
+		caption: '✹ Helper App',
 		link: 'https://jaderiver62.github.io/password-generator/'
 	},
 	{
@@ -104,7 +104,7 @@ function Portfolio(props) {
 				onExited={() => setAnimating(false)}
 				key={item.src}
 			>
-				<a href={item.link} rel="noreferrer" target="_blank"><img src={item.src} alt={item.altText}   /></a>
+				<a href={item.link} rel="noreferrer" target="_blank"><img src={item.src} alt={item.altText} /></a>
 
 				<CarouselCaption captionText={item.caption} alt={item.altText} captionHeader={item.altText} />
 			</CarouselItem>
@@ -113,16 +113,28 @@ function Portfolio(props) {
 
 
 	return (
-		<Carousel
-			activeIndex={activeIndex}
-			next={next}
-			previous={previous}
-		>
-			<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
-			{slides}
-			<CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-			<CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-		</Carousel>
+		<div className="portfolio-page">
+			<div className="portfolio-header">
+				<h1>My Portfolio</h1>
+				<br />
+			</div>
+			<Carousel
+				activeIndex={activeIndex}
+				next={next}
+				previous={previous}
+			>
+				<CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+				{slides}
+				<CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+				<CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+			</Carousel>
+			<div className="carousel-subtitle">
+				Click an image to see a sample of my work
+			</div>
+			<div className="portfolio-itemized">
+
+			</div>
+		</div>
 	);
 }
 
