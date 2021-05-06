@@ -5,6 +5,6 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
-import SingleProject from "./SingleProject";
 
-export { About, Contact, Footer, Header, Nav, Portfolio, Resume, SingleProject };
+
+export { About, Contact, Footer, Header, Nav, Portfolio, Resume };

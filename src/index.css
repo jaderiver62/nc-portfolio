@@ -53,11 +53,18 @@
         color: black;
     }
     
+    .card-col {
+        margin: 30px;
+    }
+    
+    .card-style {
+        height: 400px;
+    }
+    
     .carousel-caption {
         width: 25%;
         background-color: #000000;
         padding: 10px;
-        height: 120px;
     }
     
     .carousel {
@@ -160,6 +167,9 @@
     }
     
     @media screen and (max-width: 999px) {
+        .card-style {
+            width: 100%
+        }
         .contact-container {
             margin-left: auto;
         }

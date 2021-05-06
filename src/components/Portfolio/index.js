@@ -5,8 +5,8 @@ import {
 	CarouselItem,
 	CarouselControl,
 	CarouselIndicators,
-	CarouselCaption,
-
+	CarouselCaption, Card, CardImg, CardText, CardBody,
+	CardTitle, CardSubtitle, CardLink, Row, Col
 } from 'reactstrap';
 import amanuensis from "../../assets/portfolio/amanuensis2.png";
 import apparatus from "../../assets/portfolio/apparatus2.png";
@@ -17,6 +17,7 @@ import safePassage from "../../assets/portfolio/safe-passage2.png";
 import scheduler from "../../assets/portfolio/scheduler2.png";
 import weatherBee from "../../assets/portfolio/weather-bee2.png";
 import workbase from "../../assets/portfolio/workbase2.png";
+
 
 const items = [
 	{
@@ -131,8 +132,70 @@ function Portfolio(props) {
 			<div className="carousel-subtitle">
 				Click an image to see a sample of my work
 			</div>
-			<div className="portfolio-itemized">
+			<div>
+				<h2 className="portfolio-header">Here is a selection of my projects:</h2>
+				<br />
+				<br />
+				<div>
+					<Row className="justify-content-center">
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={amanuensis} alt="amanuensis" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Amanuensis</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">App for taking notes</CardSubtitle>
+								<CardText>This App is great for creating, saving and deleting notes at your leisure!  The notes are stored in local storage.</CardText>
+								<CardLink href="https://sheltered-crag-78743.herokuapp.com/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://github.com/jaderiver62/amanuensis">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={apparatus} alt="apparatus" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Apparatus</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Tech Blog Site</CardSubtitle>
+								<CardText>A blog site that anyone can join to post their thoughts about a variety of tech subjects!  Users can post and comment.</CardText>
+								<CardLink href="https://quiet-ocean-12254.herokuapp.com/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://github.com/jaderiver62/apparatus">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={liaison} alt="amanuensis" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Liaison</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Team Organization</CardSubtitle>
+								<CardText>Create a team dashboard in the command line to keep track of current information.</CardText>
+								<CardLink href="https://jaderiver62.github.io/liaison/src/dist/">Output Example</CardLink>
+								<br />
+								<CardLink href="https://github.com/jaderiver62/liaison">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={passwordGenerator} alt="password generator" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Password Generator</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">Generate an encrypted password</CardSubtitle>
+								<CardText>This App make it easy to use secure passwords without having to do much!</CardText>
+								<CardLink href="https://jaderiver62.github.io/password-generator/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://github.com/password-generator">GitHub</CardLink>
+							</Card>
+						</Col>
+						<Col className="card-col" xs="12" sm="12" md="12" lg="8" xl="4">
+							<CardImg top width="100%" src={prosperity} alt="prosperity" />
+							<Card body className="card-style">
+								<CardTitle tag="h5">Prosperity</CardTitle>
+								<CardSubtitle tag="h6" className="mb-2 text-muted">A Budget Tracker</CardSubtitle>
+								<CardText>Keep track of your budget in this simple app that stores your information and displays trends in a chart</CardText>
+								<CardLink href="https://jaderiver62.github.io/prosperity-app/">Visit Site</CardLink>
+								<br />
+								<CardLink href="https://serene-everglades-38825.herokuapp.com/">GitHub</CardLink>
+							</Card>
+						</Col>
+					</Row>
 
+				</div>
 			</div>
 		</div>
 	);
