@@ -36,32 +36,32 @@ function Contact() {
 				<h1>
 					Send me a message!
 				</h1>
-				<img src={paperPlane} style={{ width: "10%"}} alt="paper plane" className="airplane" />
+				<img src={paperPlane} style={{ width: "10%" }} alt="paper plane" className="airplane" />
 
 			</div>
 			<div className="contact-panel">
 				<form id="contact-me" onSubmit={handleSubmit}>
 					<div className="form-element">
-						<label htmlFor="name">Name:</label>
+						<label htmlFor="name">name:</label>
 						<br />
 						<br />
 						<input type="text" defaultValue={name} onChange={handleInput} onBlur={handleFocus}
-							name="name" className="contact-input"/>
+							name="name" className="contact-input" />
 					</div>
 					<div className="form-element">
-						<label htmlFor="message">Message:</label>
+						<label htmlFor="message">message:</label>
 						<br />
 						<br />
 						<textarea defaultValue={message} onChange={handleInput} onBlur={handleFocus}
-							name="message" rows="12" cols="50" className="contact-input"/>
+							name="message" rows="12" cols="50" className="contact-input" />
 					</div>
 
 					<div className="form-element">
-						<label htmlFor="email">E-mail:</label>
+						<label htmlFor="email">e-mail:</label>
 						<br />
 						<br />
 						<input type="text" defaultValue={email} onChange={handleInput} onBlur={handleFocus}
-							name="email" className="contact-input"/>
+							name="email" className="contact-input" />
 					</div>
 					{errorMessage && (
 						<div>
@@ -71,7 +71,14 @@ function Contact() {
 					<button type="submit" className="btn">Send</button>
 				</form>
 			</div>
-			<img src={airplane} style={{ width: "15%", padding: "40px", opacity:".7" }} alt="airplane" className="airplane" />
+			<img src={airplane} style={{ width: "15%", padding: "40px", opacity: ".7" }} alt="airplane" className="airplane" />
+			<br />
+			<br /><div className="contact-details">
+				e-mail: <a href="mailto:jaderiver64@gmail.com">jaderiver64@gmail.com</a>
+				<br/>
+				<br/>
+				cell: (612) 242-4871
+				</div>
 		</div>
 	</section>)
 

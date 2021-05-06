@@ -81,12 +81,21 @@
     .contact-container {
         flex-direction: column;
         margin-left: 25%;
+        font-size: 1.4rem;
     }
     
     .contact-input {
         background-color: rgb(235, 223, 255);
         border: 1px solid;
         padding: 10px;
+    }
+    
+    .contact-details {
+        font-weight: bold;
+    }
+    
+    a {
+        color: rgb(126, 49, 161);
     }
     
     p {
