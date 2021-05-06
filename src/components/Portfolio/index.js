@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import {
 	Carousel,
 	CarouselItem,
@@ -9,33 +8,33 @@ import {
 	CarouselCaption,
 
 } from 'reactstrap';
-import amanuensis from "../../assets/portfolio/amanuensis.png";
-import apparatus from "../../assets/portfolio/apparatus.png";
-import liaison from "../../assets/portfolio/liaison.png";
-import passwordGenerator from "../../assets/portfolio/password-generator.png";
-import prosperity from "../../assets/portfolio/prosperity.png";
-import safePassage from "../../assets/portfolio/safe-passage.png";
-import scheduler from "../../assets/portfolio/scheduler.png";
-import weatherBee from "../../assets/portfolio/weather-bee.png";
-import workbase from "../../assets/portfolio/workbase.png";
+import amanuensis from "../../assets/portfolio/amanuensis2.png";
+import apparatus from "../../assets/portfolio/apparatus2.png";
+import liaison from "../../assets/portfolio/liaison2.png";
+import passwordGenerator from "../../assets/portfolio/password-generator2.png";
+import prosperity from "../../assets/portfolio/prosperity2.png";
+import safePassage from "../../assets/portfolio/safe-passage2.png";
+import scheduler from "../../assets/portfolio/scheduler2.png";
+import weatherBee from "../../assets/portfolio/weather-bee2.png";
+import workbase from "../../assets/portfolio/workbase2.png";
 
 const items = [
 	{
 		src: amanuensis,
 		altText: 'Amanuensis',
-		caption: '✹ Note App',
+		caption: '✹ App for taking notes',
 		link: 'https://sheltered-crag-78743.herokuapp.com/'
 	},
 	{
 		src: apparatus,
 		altText: 'Apparatus',
-		caption: '✹ Tech Blog',
+		caption: '✹ Tech Blog Site',
 		link: 'https://quiet-ocean-12254.herokuapp.com/'
 	},
 	{
 		src: liaison,
 		altText: 'Liaison',
-		caption: '✹ Organizational App',
+		caption: '✹ App for organizing teams',
 		link: 'https://github.com/jaderiver62/liaison'
 	},
 	{
@@ -59,7 +58,7 @@ const items = [
 	{
 		src: scheduler,
 		altText: 'Work Day Scheduler',
-		caption: '✹ Organizational App',
+		caption: '✹ Keep your schedule organized',
 		link: 'https://jaderiver62.github.io/work-day-scheduler/'
 	},
 	{
@@ -104,10 +103,10 @@ function Portfolio(props) {
 				onExiting={() => setAnimating(true)}
 				onExited={() => setAnimating(false)}
 				key={item.src}
-			><Router>
-				<Link to={item.link}><img src={item.src} alt={item.altText} /></Link>
-				</Router>
-				<CarouselCaption captionText={item.caption} captionHeader={item.altText} />
+			>
+				<a href={item.link} rel="noreferrer" target="_blank"><img src={item.src} alt={item.altText}   /></a>
+
+				<CarouselCaption captionText={item.caption} alt={item.altText} captionHeader={item.altText} />
 			</CarouselItem>
 		);
 	});
