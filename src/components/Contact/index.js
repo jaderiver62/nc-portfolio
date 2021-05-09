@@ -4,7 +4,7 @@ import { validater } from "../../utils/helpers";
 // E-mail Validater
 import airplane from "../../assets/contact/airplane.png";
 import paperPlane from "../../assets/contact/paper-plane.png";
-
+import { Col, Row} from 'reactstrap';
 
 
 function Contact() {
@@ -73,14 +73,19 @@ function Contact() {
 					<button type="submit" className="btn">Send</button>
 				</form>
 			</div>
-			<img src={airplane} style={{ width: "15%", padding: "40px", opacity: ".7" }} alt="airplane" className="airplane" />
-			<br />
-			<br /><div className="contact-details">
+			<Row>
+				<Col>
+				<img src={airplane} style={{ width: "15%", padding: "40px", opacity: ".7" }} alt="airplane" className="airplane" />
+				<br />
 				e-mail: <a href="mailto:jaderiver64@gmail.com">jaderiver64@gmail.com</a>
-				<br/>
-				<br/>
+				<br />
 				cell: (612) 242-4871
-				</div>
+				</Col>
+			</Row>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
 		</div>
 	</section>)
 
