@@ -24,11 +24,11 @@ function About() {
 					My primary goal is to continue to learn more about development every day, and my work will reflect my endeavors.
 					<br />
 					<br />
-					In the broad scheme of things, I am studying computer science and mathematics at the University of Minnesota.
+					I am studying computer science and mathematics at the University of Minnesota, I have about 2 years left to obtain my BS.
 					<br />
 					Most recently, I have been attending a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
 					<br />
-					I have been coding now for several years and have only become more fascinated with time.
+					I have been coding now for several years now indepentenly and taking classes at City College of San Francisco.
 					<br /><br />
 					Sincerely, I love to code!
 					<br /><br />
