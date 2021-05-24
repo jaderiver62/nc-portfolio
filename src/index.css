@@ -3,7 +3,7 @@
 .page-styles {
     font-family: Arial, Helvetica, sans-serif;
     color: #b3c5bc;
-    background-color: lightgrey;
+    background-color: rgb(243, 243, 243);
 }
 
 h1 {
@@ -166,7 +166,7 @@ ul {
 }
 
 .card-style {
-    height: 400px;
+    height: 300px;
 }
 
 .carousel-caption {

@@ -15,9 +15,19 @@ import safePassage from "../../assets/portfolio/safe-passage2.png";
 import scheduler from "../../assets/portfolio/scheduler2.png";
 import weatherBee from "../../assets/portfolio/weather-bee2.png";
 import wikipleiades from "../../assets/portfolio/wikipleiades2.png";
+import blather from "../../assets/portfolio/blather-screenshot.png";
 
 
 const items = [
+	
+	{
+		src: blather,
+		altText: 'Blather',
+		caption: 'blabathons',
+		link: 'https://pacific-oasis-90582.herokuapp.com/',
+		description: 'A social app for blabbing, making friends and posting random images!',
+		github: 'https://github.com/ohwhytina/blather'
+	},
 	{
 		src: wikipleiades,
 		altText: 'WikiPleiades',

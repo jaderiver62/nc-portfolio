@@ -21,14 +21,14 @@ function About() {
 					<br />
 					In my spare time, however, I am an eager student of coding!
 					<br />
+					I have been coding now for several years and have only become more fascinated with time.
 					My primary goal is to continue to learn more about development every day, and my work will reflect my endeavors.
 					<br />
 					<br />
-					In the broad scheme of things, I am studying computer science and mathematics at the University of Minnesota.
-					<br />
 					Most recently, I have been attending a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
 					<br />
-					I have been coding now for several years and have only become more fascinated with time.
+					After boot camp, I plan to continue to study for a BS in Computer Science and Mathematics at the University of Minnesota.
+					<br />
 					<br /><br />
 					Sincerely, I love to code!
 					<br /><br />
