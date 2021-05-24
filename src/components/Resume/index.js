@@ -6,7 +6,7 @@ import NinaResume from "../../assets/resume/nina-cummings.pdf";
 function Resume() {
 	const [proficiencies] = useState({
 		front: [
-			"Javascript", "React", "jQuery", "Bootstrap", "Bulma", "Handlebars", "HTML", "CSS"
+			"Javascript", "React", "jQuery", "Bootstrap", "Handlebars", "HTML", "CSS"
 		]
 		,
 		back: [
