@@ -24,7 +24,7 @@ const items = [
 		src: blather,
 		altText: 'Blather',
 		caption: 'blabathons',
-		link: 'https://pacific-oasis-90582.herokuapp.com/',
+		link: 'https://blather-blab.herokuapp.com/',
 		description: 'A social app for blabbing, making friends and posting random images!',
 		github: 'https://github.com/ohwhytina/blather'
 	},
