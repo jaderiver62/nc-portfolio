@@ -8,7 +8,7 @@ import divider from "../../assets/about-me/divider.png";
 function About() {
 	return (
 		<section className="page">
-			<img src={ninaImage} style={{ /*width: "15%",*/ padding: "40px" }} alt="Nina" className="nina-pic" />
+			// <img src={ninaImage} style={{ width: "15%", padding: "40px" }} alt="Nina" className="nina-pic" />
 			<div>
 				<br /><br />
 
