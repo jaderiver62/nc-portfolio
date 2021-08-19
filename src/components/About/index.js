@@ -2,13 +2,13 @@
 import React from 'react';
 import ninaImage from "../../assets/about-me/nina-cummings.png";
 import divider from "../../assets/about-me/divider.png";
-
+// <img src={ninaImage} style={{ width: "15%", padding: "40px" }} alt="Nina" className="nina-pic" />
 
 
 function About() {
 	return (
 		<section className="page">
-			// <img src={ninaImage} style={{ width: "15%", padding: "40px" }} alt="Nina" className="nina-pic" />
+			
 			<div>
 				<br /><br />
 
