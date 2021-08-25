@@ -15,33 +15,29 @@ function About() {
 					<h1>About Me</h1>
 				<p>
 					<br />
-					Greetings!
+					Hello!
 					<br />
-					I am Nina, a humble Baker by day.....
-					<br />
-					In my spare time, however, I am an eager student of coding!
+					I am Nina.
 					<br />
 					I have been coding now for several years and have only become more fascinated with time.
-					My primary goal is to continue to learn more about development every day, and my work will reflect my endeavors.
-					<br />
-					I have been coding for several years now both indepentenly and by taking classes at City College of San Francisco.
+					My primary goal is to continue to learn new technologies and develop my skills, and my work will reflect this.
 					<br />
 					
-					Most recently, I have been attending a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
+					Most recently, I completed a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
 					<br />
-					After boot camp, I plan to continue to study for a BS in Computer Science and Mathematics at the University of Minnesota.
+					My plan is to transfer from City College of San Francisco to the University of Minnesota for a double major BS in Computer Science and Mathematics.
 					<br />
 					<br /><br />
-					Sincerely, I love to code!
+					Thank you for taking the time to review my work!
 					<br /><br />
 					Watch this space...
 				</p><br />
 				<br />
-				<img src={divider} style={{ width: "55%" }} alt="divider" className="divider" />
+
 			</div>
 
 		</section>
 	);
 }
-
+// <img src={divider} style={{ width: "55%" }} alt="divider" className="divider" />
 export default About;
