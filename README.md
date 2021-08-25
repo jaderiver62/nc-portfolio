@@ -14,11 +14,6 @@ Project Link:
 
 ---------------------------------------
 
-
-![Project Image](./src/assets/readme/screenshot.png)
-
----------------------------------------
-
 Written using:
 
                     
