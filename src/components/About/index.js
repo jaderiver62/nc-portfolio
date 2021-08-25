@@ -20,7 +20,7 @@ function About() {
 					My name is Kristina Cummings, but I use my childhood nickname Nina.
 					<br />
 					I have been coding now for several years and have only become more fascinated with time.
-					My primary goal is to continue to learn new technologies and develop my skills and ultimately contribute to meaningful projects.
+					My primary goal is to continue to learn new technologies and develop my skills so that I can ultimately contribute to meaningful projects.
 					<br />
 					
 					Most recently, I completed a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
