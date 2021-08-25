@@ -17,7 +17,7 @@ function About() {
 					<br />
 					Hello!
 					<br />
-					I am Nina.
+					My name is Kristina Cummings, but I use my childhood nickname Nina.
 					<br />
 					I have been coding now for several years and have only become more fascinated with time.
 					My primary goal is to continue to learn new technologies and develop my skills, and my work will reflect this.
