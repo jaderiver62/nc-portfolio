@@ -24,6 +24,7 @@ function About() {
 					<br />
 					
 					Most recently, I completed a coding boot camp cohort at UC Berkeley Extension for Full Stack Web Development.
+					I am actively seeking open source projects to take part in at the moment and also have some pet projects in the works of my own (check back here soon!).
 					<br />
 					My plan is to transfer from City College of San Francisco to the University of Minnesota for a double major BS in Computer Science and Mathematics.
 					<br />
